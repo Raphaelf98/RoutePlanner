@@ -1,4 +1,4 @@
-#include "model.h"
+#include "../src/model.h"
 #include "pugixml.hpp"
 #include <iostream>
 #include <string_view>

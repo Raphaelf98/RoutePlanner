@@ -20,7 +20,7 @@ class RouteModel : public Model {
 
         void FindNeighbors();
         float distance(Node other) const {
-            return std::sqrt(std::pow((x - other.x), 2) + std::pow((y - other.y), 2));
+            return std::sqrt( std::pow((x - other.x), 2) + std::pow((y - other.y), 2));
         }
 
         Node(){}
